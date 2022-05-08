@@ -7,14 +7,8 @@
 
 #### Official Entry of Team Mile High , from SRM Institute of Science and Technology Kattankulathur, to Hack The Mountain
 
-#### View VaiRoga in action🚀 : [LIVE ON NETLIFY](https://0fitify0.netlify.app/)
 
 <br>
-
-![Collaborators](https://img.shields.io/badge/collaborators-4-blue)
-![Status](https://img.shields.io/badge/status-under_development-blue)
-![Stars](https://img.shields.io/github/stars/abhinavmaharana/Hack36-The-Unacceptable)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 
 
