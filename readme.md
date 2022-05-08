@@ -1,6 +1,5 @@
 
 
-# Hack The Mountain : Mile High
 # Fitness Freaks <br>
 <img src="./frontend/src/images/dumbbell.png" width=50,><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2>
 
