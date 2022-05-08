@@ -1,7 +1,7 @@
 
 
 # Hack The Mountain : Mile High
-# Fitify <br>
+# Fitness Freaks <br>
 <img src="./frontend/src/images/dumbbell.png" width=50,><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2>
 
 
@@ -104,14 +104,7 @@ It is web app and android app for doctors and patients to communicate with each 
 1. Reusable code that can be customized for other additional features.
 2. Effective in dealing with the current situation.
 
-## Collaborators 👩🏻‍🤝‍🧑🏻👨🏻‍🤝‍👨🏻
 
-Team Name: Mile High
-
-- [Sanskar Gupta](https://github.com/sanskar0901)
-- [Samresh Samanta](https://github.com/nectro/)
-- [Arnav Bhahiya](https://github.com/arnavsharma2001)
-- [Sneha Maurya](https://github.com/sneha1012)
 
 <br>
 <img src="./frontend/src/images/dumbbell.png" width=50,><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2>
