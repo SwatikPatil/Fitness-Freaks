@@ -5,8 +5,6 @@
 <img src="./frontend/src/images/dumbbell.png" width=50,><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2><img src="./frontend/src/images/dumbbell.png" width=50, padding:2>
 
 
-#### Official Entry of Team Mile High , from SRM Institute of Science and Technology Kattankulathur, to Hack The Mountain
-
 
 <br>
 
