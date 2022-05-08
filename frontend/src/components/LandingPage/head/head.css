@@ -1,0 +1,125 @@
+.head {
+  /* width: 100vw; */
+  background-color: #0c080e;
+  height: 93vh;
+}
+.flex {
+  /* width: 100vw; */
+  overflow: hidden;
+  display: flex;
+  height: 91.7vh;
+}
+.logo {
+  width: 12.56vw;
+  margin-top: 23.47vh;
+  margin-left: 3.564vw;
+  height: 25.33vh;
+}
+.logo-text {
+  display: flex;
+}
+.fiti {
+  font-family: Poppins;
+  margin-left: 2.23vw;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  margin-top: 23.47vh;
+  color: #8892f5;
+}
+.fy {
+  color: #ffff;
+}
+.login ,.signup{
+  position: absolute;
+    width: 9.93vw;
+    height: 5.03vh;
+    left: 3.61vw;
+    top: 63.26vh;
+    padding-bottom:36px;
+}
+button {
+  /*position: absolute;
+    width: 9.93vw;
+    height: 5.03vh;
+    left: 3.61vw;
+    top: 63.26vh;*/
+  background: #8892f5;
+  border-radius: 4px;
+  /* position: absolute;
+    padding-bottom:36px;*/
+  font-family: Poppins;
+
+  font-style: normal;
+  font-weight: 550;
+  font-size: 1.44vw;
+  line-height: 30px;
+  /* identical to box height, or 136% */
+
+  color: #ffffff;
+}
+.login {
+  left: 16.51vw;
+  background: #ffffff;
+  color: black;
+}
+p {
+  text-align: left !important;
+  align-items: left;
+  position: absolute;
+  width: 31.77vw;
+  height: 15.91vh;
+  left: 3.4vw;
+  top: 74.13vh;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1.71vw;
+  line-height: 30px;
+  /* or 115% */
+
+  color: #ffffff;
+}
+/* .workplan{
+    position: absolute;
+
+left: 752px;
+top: -48.08px;
+} */
+.home {
+  width: 19.079vw;
+
+  position: absolute;
+  left: 53.94vw;
+  top: 40.98vh;
+}
+.coinsystem {
+  width: 19.079vw;
+  position: absolute;
+  left: 70.46vw;
+  top: 42.42vh;
+}
+.ecommerce {
+  /* width: 19.079vw; */
+  height: 57.04vh;
+  position: absolute;
+
+  left: 87.64vw;
+  top: 50.3vh;
+}
+.workplan {
+  width: 19.079vw;
+  position: absolute;
+  left: 60.65vw;
+  top: -0.08px;
+}
+.image {
+  width: 19.079vw;
+  position: absolute;
+  left: 78.94vw;
+  top: 6.92px;
+}
+.images {
+  overflow: hidden;
+}

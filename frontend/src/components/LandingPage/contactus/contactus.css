@@ -1,0 +1,127 @@
+.contactus{
+    background-color: #5A64C5;
+    height: 73.71vh;
+}
+.full{
+    display: flex;
+}
+
+.d-flex {
+    padding-top: 0.5vw;
+    height: 14vh;
+    width: 45vw;
+    gap: 0.5vw;
+    padding-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    
+}
+.address{
+    
+    width: 44vw;
+}
+.para{
+
+     /* margin-top: 2vh; */
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     width: 10.9vw;
+     height: 10.21vh;
+     left: 0vh;
+     top: 0vh;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 1.05vw;
+     line-height: 19px;
+     color: #FFFFFF;
+}
+.icon{
+    height: 6vh;
+    width: 3vw;
+}
+
+
+
+.map{
+    
+    width: 31.17vw;
+    height: 45.70vh;
+    left: 4.14vw;
+    top:320.82vh;
+}
+.location{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    width: 15.5vw;
+    height: 5.39vh;
+    left: 6.4vw;
+    top: 457.48vh;
+    }
+.mar{
+    height:2.65vh;
+    width:0.986vw;
+    background-color: #5A64C5;
+    border-radius: 50%;
+    
+}
+.cp{
+    line-height: 1vw;
+    position: relative;
+    width: 10.15vw;
+    height: 1vh;
+    top: 0vh;
+    font-size: 0.9vh;
+    color: black;
+}
+.cntus{
+   
+        width: -webkit-fill-available;
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+.contact{
+    position: relative;
+    /* width: 20.72vw; */
+    height: 6.54vh;
+    /* left: 69.60vw; */
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.15vw;
+    line-height: 72px;
+}
+.form{
+    
+    
+    position: relative;
+    display: block;
+    width: 25.06vw;
+    left: 0vw;
+     padding: 0vw; 
+     top: 0vh;
+    
+}
+.input, .textarea{
+    padding: 10px;
+    border: none;
+    width: 20.92vw;
+    height: 6.23vh;
+    left: 55.13vw;
+    margin: 10px;
+    font-family: Poppins;
+    
+    background: #ECECEC;
+    border-radius: 8px;
+}
+textarea{
+    
+    height: 11.9vh;
+}

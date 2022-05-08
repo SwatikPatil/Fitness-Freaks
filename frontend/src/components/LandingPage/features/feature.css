@@ -1,0 +1,57 @@
+.feature{
+    height: 105vh;
+    background-color: #EBEDFF;
+}
+.feature-h{
+    margin-top: 0px;
+    position: relative;
+width: 32.30vw;
+height: 9.54vh;
+
+padding: 1vw 1vw 0vw;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 3.15vw;
+line-height: 72px;
+/* identical to box height */
+
+
+color: #0C080E;
+}
+.feature-p{
+    top: 0vh;
+    left: 0vw;
+    padding: 1vw;
+    padding-left: 2.5vw;
+    
+position: relative;
+width: 95.46vw;
+height: 90px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.71vw;
+line-height: 30px;
+/* or 115% */
+
+
+color: rgba(12, 8, 14, 0.74);
+}
+.d{
+    display: flex;
+    padding-left:0vw ;
+}
+.pic{
+    padding-top: 8vh;
+    padding-left: 8.5vw;
+    position: relative;
+    width: 22.47vw;
+    height: 64.81vh;
+
+}
+.one{
+    padding-top: 5vh;
+}

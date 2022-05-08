@@ -1,0 +1,112 @@
+.about{
+    background-image: url('../../../images/dumbbell2.png');
+    background-repeat: no-repeat;
+    background-position-x: 54vw;
+    background-position-y: 20vh;
+    margin-top: -1.06vh;
+    background-color: #5A64C5;
+    height: 100vh;
+      
+}
+.bg{
+    width:46.38vw;
+    position: absolute;
+    left: 52.42vw;
+    top: 121.35vh;
+}
+.about-h{
+    position: absolute;
+width: 28.55vw;
+height: 9.5vh;
+left: 2.10vw;
+top: 106.36vh;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 3.15vw;
+line-height: 72px;
+color: #FFFFFF;
+
+}
+.about-p{
+    position: absolute;
+width: 62.3vw;
+height: 19.89vh;
+left: 2.10vw;
+top: 120.02vh;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.71vw;
+line-height: 30px;
+color: #FFFFFF;
+}
+.card{
+    position: absolute;
+width: 16.57vw;
+height: 41.51vh;
+left: 9.27vw;
+top: 156.82vh;
+
+background: #FEF9FF;
+border-radius: 12px;
+}
+
+.card2{
+    left: 32.43vw;
+    background: #FAFFF9;
+}
+.card3{
+    left: 54.93vw;
+    background: #FFFAFA;
+}
+.card4{
+    left: 76.77vw;
+    background: #FFF9E3;
+}
+.fitness{
+    position: absolute;
+    width: 9.67vw;
+    height: 19.49vh;
+    left: 3.42vw;
+    top: 2.12vh;
+}
+.plan{
+    position: absolute;
+    width: 9.67vw;
+    height: 19.49vh;
+    left: 3.88vw;
+    top: 2.12vh;
+}
+.shoping-cart{
+    position: absolute;
+    width: 9.67vw;
+    height: 19.49vh;
+    left: 3.42vw;
+    top: 2.12vh;
+}
+.coin{
+    position: absolute;
+    width: 9.67vw;
+    height: 19.4vh;
+    left: 3.42vw;
+    top: 1.12vh;
+}
+.h1-about{
+    position: absolute;
+width: 11.71vw;
+height: 7.95vh;
+left: 2.76vw;
+top: 25.19vh;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 2.63vw;
+line-height: 60px;
+/* identical to box height */
+
+
+color: #5A64C5;
+}

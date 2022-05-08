@@ -1,0 +1,236 @@
+.majorContainer {
+  font-family: "poppins";
+}
+.header {
+  padding: 0.8vw;
+  padding-bottom: 2.25vw;
+  display: flex;
+  flex-direction: row;
+}
+.dashhead {
+  font-weight: 700;
+  font-size: 1.85vw;
+  margin-right: 3.22vw;
+}
+.leaderboard b {
+  margin-right: 0.8vw;
+  color: #ffc700;
+  font-weight: 700;
+  font-size: 1.85vw;
+}
+.leaderboard {
+  padding: 0px 0.8vw;
+  background-color: #ffff;
+  font-size: 1.367vw;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+/*for responsive make the grid-template-columns-->( 1fr )*/
+.progressviewer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 1.61vw;
+  min-height: 9.25vw;
+  background-color: #1f2024;
+  border-radius: 1.287vw;
+  color: #f5f5f5;
+}
+.num {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.885vw;
+  padding: 0px 1.61vw;
+}
+.num h4 {
+  margin: 0px;
+  font-weight: 600;
+}
+.num h2 {
+  margin: 0px;
+  font-weight: 600;
+}
+#burnt {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -0.804vw;
+}
+#balance {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.413vw;
+  margin-left: -1.61vw;
+}
+#balance h4 {
+  color: #5fff5b;
+}
+#consumed {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -0.643vw;
+}
+#consumed span {
+  line-height: 0.885vw;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.563vw;
+}
+.cons {
+  width: 100%;
+  padding: 0.482vw 1.61vw;
+}
+.prg {
+  width: 100%;
+  height: 0.965vw;
+  background-color: #c4c4c4;
+  border-radius: 0.965vw;
+  overflow: hidden;
+}
+.prg div {
+  height: 100%;
+  border-radius: 0.965vw;
+}
+
+#a {
+  background-color: #e82829;
+}
+
+#b {
+  background-color: #5fff5b;
+}
+
+.cpt {
+  width: 100%;
+  padding: 0px 0.241vw;
+  font-size: 0.804vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 890px) {
+  .dashhead {
+    font-size: 2.5vw;
+  }
+  .leaderboard b {
+    font-size: 2.5vw;
+    margin-right: 1.8vw;
+  }
+  .leaderboard {
+    padding: 0px 1.3vw;
+    font-size: 1.8vw;
+  }
+  .progressviewer {
+    padding: 2.4vw 0px;
+    border-radius: 2.3vw;
+  }
+  .num {
+    font-size: 1.3vw;
+    padding: 0px 1.8vw;
+  }
+  #consumed span {
+    line-height: 1.6vw;
+  }
+  #balance {
+    margin-top: 2.8vw;
+    margin-left: -1.61vw;
+  }
+  .cons {
+    padding: 8px 1.61vw;
+  }
+  .prg {
+    height: 9px;
+  }
+  .cpt {
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .progressviewer {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px 10px;
+  }
+  .dashhead {
+    font-size: 20px;
+  }
+  .leaderboard b {
+    font-size: 19px;
+    margin-right: 1.8vw;
+  }
+  .leaderboard {
+    padding: 0px 1.3vw;
+    font-size: 13px;
+  }
+  .num {
+    font-size: 11px;
+    padding: 0px 2vw;
+  }
+  #consumed span {
+    line-height: 12px;
+  }
+  #balance {
+    margin-top: 20px;
+    margin-left: -1.61vw;
+  }
+  .cons {
+    padding: 7px 2vw;
+  }
+  .prg {
+    height: 9px;
+  }
+  .cpt {
+    font-size: 11.5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .progressviewer {
+    grid-template-columns: 1fr;
+    gap: 2vw;
+    padding: 20px 10px;
+  }
+  .dashhead {
+    font-size: 17px;
+  }
+  .leaderboard b {
+    font-size: 17px;
+    margin-right: 1.8vw;
+  }
+  .leaderboard {
+    padding: 0px 1.3vw;
+    font-size: 12px;
+  }
+  .num {
+    font-size: 10px;
+    padding: 0px 2vw;
+  }
+  #consumed span {
+    line-height: 12px;
+  }
+  #balance {
+    margin-top: 22px;
+    margin-left: -1.61vw;
+  }
+  .cons {
+    padding: 7px 2vw;
+  }
+  .prg {
+    height: 9px;
+  }
+  .cpt {
+    font-size: 10px;
+  }
+}
