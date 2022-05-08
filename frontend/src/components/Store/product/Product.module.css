@@ -1,0 +1,267 @@
+.majorContainer {
+  background-color: #1f2024;
+  height: 100vh;
+  font-family: "poppins";
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: calc(100vh - 60px);
+  background-color: #f5f5f5;
+  background-image: linear-gradient(
+      rgb(245, 245, 245),
+      rgba(245, 245, 245, 0.65)
+    ),
+    url("../../../images/dumbbell2.png");
+  background-position-x: right;
+  background-position-y: 15vh;
+  background-repeat: no-repeat;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  overflow-y: auto;
+}
+.header {
+  height: 130px;
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.header h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.767);
+}
+.content {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.CarouselCtn {
+  max-width: 38vw;
+  color: rgb(7, 7, 7);
+  margin: 15px;
+}
+.imgCar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  max-width: 50vw;
+  margin: 0px;
+  overflow-x: hidden;
+}
+.imgCar img {
+  width: 26vw;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.p1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.p1p1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.p1p1 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.p1p1 h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+}
+.p1p1 h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+}
+.p1p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: #5a64c5;
+}
+.p1p2 h3 {
+  font-size: 33px;
+  margin-top: -6px;
+  margin-bottom: 28px;
+}
+.p1p2 h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.p2 h3 {
+  text-align: left;
+  font-size: 9.5px;
+  line-height: 13px;
+  width: 240px;
+  margin-top: 20px;
+}
+.p2 button {
+  font-size: 19px;
+  border-radius: 20px;
+  padding: 2px 20px;
+  font-weight: 500;
+  border: none;
+  background-color: #5a64c5;
+  outline: none;
+  margin-top: 40px;
+}
+.p2 button:hover {
+  background-color: #3e4cc4;
+  transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 890px) {
+  .content {
+    grid-template-columns: 1fr;
+    height: fit-content;
+  }
+  .img {
+    height: 300px;
+  }
+  .CarouselCtn {
+    max-width: 78vw;
+    color: rgb(7, 7, 7);
+    margin: 15px;
+  }
+  .imgCar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    max-width: 90vw;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .imgCar img {
+    width: 40vw;
+  }
+  .details {
+    align-items: center;
+  }
+  .p1 {
+    width: 400px;
+    justify-content: space-between;
+  }
+  .p2 {
+    width: 400px;
+  }
+  .p2 button {
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .p1 {
+    width: 76%;
+    justify-content: space-between;
+  }
+  .p2 {
+    width: 76%;
+  }
+  .imgCar img {
+    width: 53vw;
+  }
+  .p2 button {
+    padding: 10px 30px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .CarouselCtn {
+    max-width: 90vw;
+    color: rgb(7, 7, 7);
+    margin: 15px;
+  }
+  .imgCar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    max-width: 100vw;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .imgCar img {
+    width: 70vw;
+  }
+  .p1 {
+    width: 88%;
+    justify-content: space-between;
+  }
+  .p2 {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .p1p1 h2 {
+    font-size: 7.05vw;
+    font-weight: 700;
+    margin-bottom: 2.94vw;
+  }
+  .p1p1 h3 {
+    font-size: 5.29vw;
+    font-weight: 600;
+    margin: 0px;
+  }
+  .p1p1 h4 {
+    font-size: 4.411vw;
+    font-weight: 500;
+    margin: 0px;
+  }
+
+  .p2 h3 {
+    text-align: left;
+    font-size: 2.79vw;
+    line-height: 3.82vw;
+    width: 70.588vw;
+    margin-top: 5.882vw;
+  }
+  .p2 button {
+    font-size: 5.5882vw;
+    border-radius: 7.7vw;
+    padding: 1.7vw 7.882vw;
+    font-weight: 500;
+    border: none;
+    background-color: #5a64c5;
+    outline: none;
+    margin-top: 11.764vw;
+  }
+  .p1p2 h3 {
+    font-size: 9.7vw;
+    margin-top: -1.764vw;
+    margin-bottom: 8.23vw;
+  }
+  .p1p2 h4 {
+    font-size: 5.882vw;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,86 @@
+.majorContainer {
+  color: #e5e5e5;
+  font-family: "poppins";
+  height: 60px;
+  overflow-y: hidden;
+}
+
+/*---nav list for the desktop---*/
+.ListM {
+  display: none;
+}
+.List {
+  float: left;
+}
+.List ul {
+  padding: 0px 10px;
+}
+.List ul li {
+  display: inline-block;
+  padding: 17px 20px;
+}
+.List ul li a {
+  color: #e5e5e5;
+  font-weight: 500;
+  font-size: 19px;
+}
+.List ul li a:hover {
+  text-decoration: none;
+  color: #8892f5;
+  transition-duration: 0.2s;
+}
+
+.acct {
+  float: right;
+  display: flex;
+  padding: 8px 20px;
+}
+.acct div {
+  padding-top: 9px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+.acct img {
+  height: 43px;
+}
+
+@media screen and (max-width: 890px) {
+  .List {
+    display: none;
+  }
+  .ListM {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    height: 100%;
+    padding-left: 10px;
+  }
+  .iconContainer {
+    font-size: 32px;
+    margin-left: 15px;
+  }
+  .ListM ul {
+    padding: 0px;
+    background-color: #1f2024;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  .ListM ul li {
+    display: flex;
+    margin: 2vh 0px;
+  }
+  .ListM ul li a {
+    color: #e5e5e5;
+    font-weight: 500;
+    font-size: 23px;
+  }
+}

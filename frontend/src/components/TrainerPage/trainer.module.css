@@ -1,0 +1,47 @@
+.majorContainer {
+    background-color: #1f2024;
+    min-height: 100vh;
+  }
+  .container{
+    background-image:linear-gradient(rgb(245, 245, 245), rgba(245, 245, 245,0)),url('../../images/dumbbell2.png');
+    background-position:right;
+    background-position-y: 15vh;
+    background-repeat: no-repeat;
+    height: calc(100vh - 60px);
+    background-color: rgb(245, 245, 245);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .heading{
+    text-align: center;
+    font-family: Poppins;
+    top:3vh ;
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 45px;
+  }
+  /* .bg{
+    width:46.84vw;
+    height:118.30vh;
+    position: relative;
+    left: 52.42vw;
+    opacity: 0.3;
+    top: 91px;
+} */
+@media screen and (max-width:860px) {
+  .heading{
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6.5vw;
+    line-height: 45px;
+    }
+
+}

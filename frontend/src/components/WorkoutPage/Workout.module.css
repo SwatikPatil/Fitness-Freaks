@@ -1,0 +1,201 @@
+.majorContainer {
+  background-color: #1f2024;
+  min-height: 100vh;
+}
+.container{
+  background-image:linear-gradient(rgb(245, 245, 245), rgba(245, 245, 245,0)),url('../../images/dumbbell2.png');
+  background-repeat: no-repeat;
+  background-position:right;
+  background-position-y: 15vh;
+  /* display: flex;   */
+  position: absolute;
+  top:7.95vh;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  height:92vh;
+  width:100vw;
+  
+  background-color: #F0F0F5;
+}
+.workoutH1{
+  position: relative;
+width: 13.94vw;
+height: 4.77vh;
+left: 4.078vw;
+top: 6.89vh;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 1.57vw;
+line-height: 4.77vh;
+/* identical to box height */
+
+
+color: #1F2024;
+
+}
+.progress{
+  position: absolute;
+  top: 5.30vh;
+  left: 3.28vw;
+  width:59.21vw
+}
+.workoutProgress{  
+  display: flex;
+  width: 56.90vw;
+  margin-left: 1vw;
+
+}
+.workouts1{
+  margin: 1vw;
+  display: flex;
+  
+  position: relative;
+  
+
+background: #5A64C5;
+border-radius: 12px;
+  width:27.65vw;
+  height:20.42vh;
+}
+
+.progressImg{
+  height: 14.19vh;
+  width: 6.57vw;
+  position: relative;
+  top:2.51vh;
+  left: 2.36vw;
+}
+.progressH6{
+  position: relative;
+width: 14.14vw;
+height: 6.63vh;
+top:5.30vh;
+left: 2.96vw;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.64vw;
+line-height: 3.31vh;
+
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.para{
+  position: relative;
+  width: 11vw;
+  height: 3.18vh;
+  top:5.30vh;
+  left:3.28vw;
+
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 430;
+  font-size: 0.98vw;
+  line-height: 3.18vh;
+  }
+  .hr{
+    position: relative;
+    width: 38.4vw;
+    height: 0px;
+    left: 47vw;
+    top: 44vh;
+    border: 2px solid #270dfd;
+    transform: rotate(90deg);
+  }
+  
+  .WorkoutList{
+    width: 21.71vw;
+    left:77.94vw;
+    padding: 15px;
+    position: relative;
+    top:-27.53vh;
+    display: flex;
+  }
+  .WorkoutName{
+    position: relative;
+    width: 10.52vw;
+    height: 5.17vh;
+    top:3.97vh;    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.97vw;
+    line-height: 5.17vh;
+    color: #565657;
+    left: -3.86vw;
+  }
+  .WorkoutImg{
+    position: relative;
+    width: 7.63vw;
+    height: 12.7vh;
+    left: -8.86vw;
+    
+
+  }
+  .workoutsListHead{
+  position: relative;
+  width: 8.61vw;
+  height: 5.96vh;
+  left: 78.9vw;
+  top:-30.50vh;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.97vw;
+line-height: 5.96vh;
+
+
+
+color: #1F2024;
+  }
+  .startWorkout{
+    position: relative;
+width: 11.84vw;
+height: 4.77vh;
+left: 30.89vw;
+top:-27.85vh;
+padding:5px;
+margin-left: 1vw;
+
+background: #5761C2;
+border: 1px solid #5963C4;
+box-sizing: border-box;
+border-radius: 6px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.052vw;
+line-height: 3.18vh;
+  }
+  .Box{
+    margin-top: 33.93vh;
+    height:2.65vh;
+  }
+  .longarmstretch{
+    position: relative;
+    width: 10.52vw;
+    height: 5.17vh;
+    top:2.25vh;
+    left: -3.86vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.97vw;
+    line-height: 5.17vh;
+    color: #565657;
+  }
+  .a{
+    color: white !important;
+  }
+  .a:hover{
+    color:black !important;
+  }

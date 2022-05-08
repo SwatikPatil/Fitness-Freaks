@@ -1,0 +1,139 @@
+.majorContainer {
+    background-color: #1f2024;
+    min-height: 100vh;
+  }
+  .main{
+    background-image:linear-gradient(rgb(245, 245, 245), rgba(245, 245, 245,0)),url('../../images/dumbbell2.png');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-position-y: 15vh;
+    /* display: flex;   */
+    position: absolute;
+    top:7.95vh;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    height:92vh;
+    width: 98.9vw;
+    display: flex;
+    overflow: hidden;
+    
+    background-color: #F0F0F5;
+  }
+  .samulation{
+      padding-top: 7vh;
+      padding-left:10vw ;
+  }
+  .workout{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 45px;
+    /* identical to box height */
+   
+    
+    
+    color: #1F2024;
+  }
+  .img{
+    width: 22vw;
+    height: 39vh;
+  }
+  .exr{
+      padding-top: 0vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    height: 5vh;
+  }
+  .prg {
+    width: 100%;
+    height: 0.965vw;
+    background-color: #c4c4c4;
+    border-radius: 0.965vw;
+    overflow: hidden;
+  }
+  .prg div {
+    height: 100%;
+    border-radius: 0.965vw;
+  }
+  #b {
+    background-color: #5A64C5;
+  }
+  .btns{
+      width: 10vw;
+      color:#5A64C5 ;
+      background-color: #FFFFFF;
+      margin: 1vw
+  }
+  .btns:hover{
+    color: #FFFFFF;
+    background-color: #5A64C5;
+    transition: 0.2s;
+
+  }
+  .min{
+      font-size: 1vw;
+  }
+  .playlist{
+    margin-top: 5.7vh;
+    height: 86vh;
+    display: flex;
+    width: 61vw;
+    flex-direction: column;
+    grid-gap: 1vw;
+    gap: 1vw;
+    padding: 3vw 3vw 3vw 24vw;
+    overflow-y: auto;
+  }
+  .mobilePlayer{
+      visibility:collapse;
+  }
+  iframe{
+      height: 88vh;
+      border-radius:1vw ;
+  }
+  ::-webkit-input-placeholder{
+      color: #5A64C5;
+  }
+  .imp{
+      height: 4vh;
+    background-color: white !important;
+    color: #5A64C5;
+}
+
+@media  screen and (max-width:890px) {
+    .main{
+        flex-direction: column;
+    }
+    .workout{
+        font-size: 10vw;
+    }
+    .samulation{
+        padding-top: 3vh;
+        padding-left: 0vw;
+    }
+    .img{
+        width: 55vw;
+        height: 36vh;
+    }
+    .playlist{
+        visibility: hidden;
+    }
+    .prg{
+        margin-left: 23vw;
+        width: 50%;
+        height: 1.965vw;
+        
+    }
+    .btns{
+        font-size: 5vw;
+        width: 20vw;
+    }
+    .mobilePlayer{
+        visibility:visible;
+    }
+    
+}

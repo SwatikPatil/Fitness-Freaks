@@ -1,0 +1,182 @@
+.trainerCard{
+    display: flex;
+    position: static;
+    padding: 1vw;
+    margin-top: 6vh;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 16.4vh;
+    background-color: white;
+    border-radius: 0.3vw;
+}
+.trainerCard img{
+  border-radius: 50%;
+  width: 6.25vw;
+  height: 12.31vh;
+  position: relative;
+  left:1.5vw
+
+}
+.fullDetails{
+  display: flex;
+}
+.trainerCard .details h1{
+  margin-left: 9vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.71vw;
+  line-height: 6.8vh;
+
+}
+.details{
+  margin-left: -1vw;
+  
+}
+.Fees{
+  color:#5A64C5;
+  font-size: 1.3vw !important;
+}
+.details h6{
+  color: #717171;
+    position: relative;
+  
+    margin-left: 9.1vw;
+    font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.05vw;
+      line-height: .26vh;
+}
+.iconYellow{
+padding-left: 1vw;
+position: relative;
+top:-1.7vh;
+left:9.5vw;
+  font-size: 2.57vw;
+  color:#F2B20E;
+}
+.iconGrey{
+    padding-left: 1vw;
+position: relative;
+top:-1.7vh;
+left:9.5vw;
+  font-size: 2.57vw;
+  color:#C7C7C7;
+}
+.rating{
+
+display: flex;
+}
+.rating h6{
+font-family: Poppins;
+font-weight: 400;
+font-size: 1.05vw;
+color: black;
+position: relative;
+top:1.1vh;
+left: 1vw;
+}
+.button{
+  display: flex;
+}
+.btn{
+  padding-bottom: 0vw;
+  align-items: center;
+  justify-content: center;
+  height: 5.03vh;
+  font-size: 1.44vw;
+  width: 10.5vw;
+  background-color: #5A64C5;
+  border: 0vw;
+  margin-left: 2vw;
+  
+  /* padding-top: 0.4vw; */
+  display: flex;
+  position: relative;
+  top: 3vh;
+  left: 8vw;
+  transition: .2s;
+  
+}
+.btn:hover{
+  text-decoration: none;
+  font-size: 1.5vw;
+  text-decoration: none;
+  transition: .2s;
+}
+
+@media screen and (max-width:860px) {
+  .trainerCard{
+   
+    padding: 0vw;
+    height:40vh;
+    border-radius: 4vw;
+  }
+  .trainerCard img{
+   border-radius: 0%;
+    width: 25vw;
+    height: 15.31vh;
+    position: relative;
+    left:3vw;
+    top:4vh;
+  
+  }
+  .fullDetails{
+    display: block;
+  }
+  .trainerCard .details h1{
+    text-align: left;
+    margin-left: 10vw; 
+    margin-top: 1vh;   
+    font-size: 4.71vw;      
+  }
+  .Fees{
+    margin-top:-1.5vh !important ;
+    
+    font-size:3.5vw !important;
+  }
+  .details h6{
+    
+    text-align: left;
+    margin-left: 10vw;
+    margin-top: -1.5vh; 
+      
+    
+    font-size: 3.05vw;
+    
+  }
+  .iconYellow ,.iconGrey{
+        
+      font-size: 5.57vw;
+      top:-3vh;
+     
+    }
+    
+    .rating h6{
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 3.5vw;
+      color: black;
+      position: relative;
+      top:0vh;
+      left: 2vw;
+      }
+      .btn{
+        height: 4vh!important;
+        font-size: 3.44vw;
+        width: 24.5vw;
+        
+      
+        
+        
+        justify-content: center;
+        /* padding-left: 2.2vw; */
+        padding-top: 0vh !important;
+        
+        top: -2vh;
+        left: 8vw;
+        
+      }
+  
+}

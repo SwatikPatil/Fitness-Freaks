@@ -1,0 +1,362 @@
+.majorContainer {
+    background-color: #1f2024;
+    min-height: 100vh;
+  }
+  .container{
+    background-image:linear-gradient(rgb(245, 245, 245), rgba(245, 245, 245,0)),url('../../../images/dumbbell2.png');
+    background-position:right;
+    background-position-y: 15vh;
+    background-repeat: no-repeat;
+    height: calc(100vh - 60px);
+    background-color: rgb(245, 245, 245);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .heading{
+    text-align: center;
+    font-family: Poppins;
+    top:3vh ;
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 45px;
+  }
+  .main{
+      display: flex;
+      justify-content: flex-start;
+      height: 53vh;
+  }
+  
+  .main img{
+      width:16.4vw;
+      height:39.38vh;
+      margin-top:7vh;
+      margin-left: 5vw;
+  }
+  .fulldetails{
+      display: flex;
+  }
+  .details{
+      width:30vw;
+  }
+  .details h1{
+      position: relative;
+      top:9vh;  
+      text-align: left;
+      left:4vw;  
+      font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 33px;
+        color: #1F2024;
+  }
+  .details h6{
+    justify-content:  flex-start;
+    
+    position: relative;
+      top:9.5vh;  
+      text-align: left;
+      left:4vw;
+    color: #717171;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3vw;
+    line-height: 24px;
+  }
+  .details p{
+    position: relative;
+    top: 13vh;
+    left:4vw;
+    
+    
+    text-align: left;
+    color: #5A64C5;
+    /* font-family: Rubik; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3vw;
+    line-height: 17px;
+
+  }
+  .stars{
+      display: flex;
+      position: relative;
+      top:-1vh;
+      left:4vw;
+      
+      margin-left:-0.5vw ;
+      
+  }
+  .iconYellow{
+      margin-left: 0.5vw;
+      color:#F2B20E;
+  }
+  .iconGrey{
+    margin-left: 0.5vw;
+    color:#C7C7C7;
+}
+.stars p{
+    position: relative;
+    top:0vh;
+    left: 0.5vw;
+    color: black;
+    font-size: 1vw;
+}
+.experience{
+    position: relative;
+    color:  #717171 !important;
+    top:-12vh !important;
+    text-align: left;
+    left: 4vw !important;
+    font-family: Poppins;
+    font-style: normal;
+   
+    
+    
+}
+.experience span{
+    color: black;
+}
+.button{
+    display: flex;
+    /* position: relative; */
+    /* top:0vh;
+    width: 0vw; */
+}
+.btn{
+    background-color: #5A64C5;
+    border: 0vw;
+    justify-content: center;
+    margin-left: 2vw;
+    /* padding-left: 1vw; */
+    padding-top:0.4vw;
+    display: flex;
+    position: relative;
+    top: -25vh;
+    left: 2vw;
+    transition: .2s;
+    
+
+}
+.btn:hover{
+    text-decoration: none;
+    font-size: 1.5vw;
+    text-decoration: none;
+    transition: .2s;
+  }
+.about{
+    color: #606060 !important;
+    position: relative;
+    top: 8vh;   
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.05vw;
+    line-height: 20px;
+    width: 42vw;
+}
+.demo{
+    width: 6vw;
+    position: relative;
+    text-align: left;
+    left: 5vw;
+    color: #5A64C5;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    /* line-height: 42px; */
+}
+.cards{
+    justify-content: flex-start;
+    display: flex;
+    position: relative;
+}
+.card{
+    border-radius: 0.78vw;
+    padding: 1.5vw;
+    width: 43vw;
+    height: 14.06vh;
+    background-color: white;
+    margin: 2vw;
+    display: flex;
+    position: relative;
+    left: 3vw;
+    top:-2vh;
+    align-items: center;
+}
+.card img{
+    height: 9vh;
+    width: 9vw;
+}
+.card h3{
+    margin-left: 2vw;
+    /* font-family: Rubik; */
+font-style: normal;
+font-weight: 500;
+font-size: 1.5vw;
+line-height: 19px;
+}
+@media screen and (max-width:860px){
+    .main{
+        display: block;
+    }
+    .heading{
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 6.5vw;
+        line-height: 45px;
+        }
+    .details{
+        width:50vw;
+    }
+    .main img{
+        border-radius: 2vw;
+        width: 39vw;
+        height: 25.38vh;
+    }
+
+.details h1{
+    
+    top:6.5vh;      
+    left:4vw;  
+    
+      font-size: 5vw;
+      line-height: 33px;
+      
+}
+.details h6{
+  
+    top:4.5vh;  
+    text-align: left;
+    left:4vw;
+  
+  font-size: 2.9vw;
+  
+}
+.details p{
+  position: relative;
+  top: 4.5vh;
+  left:4vw;
+  
+  
+  text-align: left;
+ 
+  font-size: 3.5vw;
+  
+
+}
+.stars{
+    display: flex;
+    position: relative;
+    top:-10.5vh;
+    left:4vw;
+    
+    margin-left:-0.5vw ;
+    
+}
+.stars p{
+  position: relative;
+  top:0vh;
+  left: 0.5vw;
+  color: black;
+  font-size: 3vw;
+}
+.experience{
+    width: 35vw;
+    
+    top:-24.3vh !important;
+    text-align: left;
+    left: 4vw !important;
+    font-family: Poppins;
+    font-style: normal;
+       
+}
+.btn{
+    height: 4vh!important;
+    font-size: 3.2vw;
+    width: 24.5vw;    
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 2.2vw; */
+    padding-top: 0vh !important;
+    padding-bottom: 0vh;
+    top:-39vh;
+    
+    
+    
+  }
+.about{    
+    position: relative;
+    top: -32vh;   
+    left: 5vw; 
+    font-size: 3.05vw;
+    line-height: 20px;
+    width: 80vw;
+}
+.tut{
+    position: relative;
+    top: 30vh;
+}
+.demo{
+    
+    width: 6vw;
+    
+    text-align: left;
+    left: 5vw;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    /* line-height: 42px; */
+}
+.cards{
+    justify-content: flex-start;
+    display: block;
+    position: relative;
+    width: 90vw;
+    margin-bottom: 3vh;
+}
+.card{
+    
+    border-radius: 2.78vw;
+    padding: 1.5vw;
+    width: 90vw;
+    height: 14.06vh;
+   
+    margin: 2vw;
+    
+    position: relative;
+    left: 3vw;
+    top:-2vh;
+    align-items: center;
+}
+.card img{
+    
+    height: 9vh;
+    width: 20vw;
+    margin-left: 3vw;
+}
+.card h3{
+    margin-left: 4vw;
+    
+    /* font-family: Rubik; */
+font-style: normal;
+font-weight: 500;
+font-size: 3vw;
+line-height: 19px;
+}
+
+
+    
+}
